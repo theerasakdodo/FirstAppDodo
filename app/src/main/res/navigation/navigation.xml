@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@id/aboutMe_Fragment">
+
+    <fragment
+        android:id="@+id/aboutMe_Fragment"
+        android:name="com.example.firstappdodo.AboutMeFragment"
+        android:label="about_me__fragment"
+        tools:layout="@layout/aboutme__fragment" />
+    <fragment
+        android:id="@+id/contectFragment"
+        android:name="com.example.firstappdodo.ContectFragment"
+        android:label="contect_fragment"
+        tools:layout="@layout/contect_fragment" />
+    <fragment
+        android:id="@+id/addNameFragment"
+        android:name="com.example.firstappdodo.AddNameFragment"
+        android:label="add_name_fragment"
+        tools:layout="@layout/add_name_fragment" />
+</navigation>
